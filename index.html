@@ -1,0 +1,105 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="Bootsrtap">
+  <meta name="keywords" content="Bootstrap,Introduction of bootstrap,Media query">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="7 days">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/media.css">
+  <title>Bootstrap</title>
+</head>
+
+<body>
+  <!--form-->
+  <form class="row g-3 needs-validation" novalidate>
+    <div class="mb-3">
+      <label for="formGroupExampleInput" class="form-label">First Name</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput2" class="form-label">Last Name</label>
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last Name" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput3" class="form-label">Email</label>
+      <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Email"required >
+      <div class="invalid-feedback">
+        wrong format
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="formFile" class="form-label">Upload Picture</label>
+      <input class="form-control" type="file" id="formFile">
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput4" class="form-label">Password</label>
+      <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Password" required>
+      <div class="invalid-feedback">
+        must fillup.
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput5" class="form-label">Country</label>
+      <select class="form-select" aria-label="Default select example">
+        <option value="BD">Bangladesh</option>
+        <option value="CN">Canada</option>
+        <option value="TH">Thailand</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput6" class="form-label">Gender</label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="f">
+        <label class="form-check-label" for="exampleRadios1">
+          Female
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="m">
+        <label class="form-check-label" for="exampleRadios2">
+          Male
+        </label>
+      </div>
+    </div>
+    <div class="mb-3">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+         <a href="cat.html"> Terms and Conditions</a>
+        </label>
+        <div class="invalid-feedback">
+          You must agree before submitting.
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+  </form>
+  <!--css grid-->
+  <div class="grid">
+    <div class="g-col-6 g-col-md-4 g-col-sm-4">.g-col-6 .g-col-md-4 .g-col-sm-4</div>
+    <div class="g-col-6 g-col-md-4 g-col-sm-4">.g-col-6 .g-col-md-4 .g-col-sm-4</div>
+    <div class="g-col-6 g-col-md-4 g-col-sm-4">.g-col-6 .g-col-md-4 .g-col-sm-4</div>
+  </div>
+  <!--Java script -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
